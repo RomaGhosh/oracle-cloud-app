@@ -1,0 +1,44 @@
+.card {
+  width: 45% !important;
+  height: 10% !important;
+  cursor: pointer;
+ 
+  background-color:#666666;
+  margin: 1rem auto;
+  border-radius: 3px;
+  padding: 1rem;
+  box-shadow: #00000020 4px 4px 2px;
+  border: solid 4px #00000010;
+}
+
+.card .card-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card .card-header > p {
+  color: #222326bc;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0px;
+}
+
+.card .card-body {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 2rem;
+}
+
+.card .card-footer {
+  font-size: 0.8rem;
+  color: #222326a0;
+  font-weight: 700;
+}

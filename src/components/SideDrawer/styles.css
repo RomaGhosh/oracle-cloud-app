@@ -1,0 +1,39 @@
+.sidedrawer {
+  min-width: 150px;
+  height: 93.5vh;
+  overflow: scroll;
+  position: fixed;
+  top: 6.5vh;
+  width: 20vw;
+  max-width: 80%;
+}
+
+.drawer-item {
+  display: flex;
+
+  flex-direction: row;
+  padding: 0.5rem 0.5rem;
+  justify-content: space-between;
+}
+
+.drawer-item:hover {
+  border-left: solid 3px #3ab199;
+  cursor: pointer;
+}
+
+.drawer-item.dropdown-header {
+  border-left: none;
+  cursor: initial;
+}
+
+.drawer-item > .title {
+  color: white;
+  font-size: 1rem;
+}
+
+.drawer-item > .title-header {
+  font-size: 0.7rem;
+  color: white;
+}
+
+
